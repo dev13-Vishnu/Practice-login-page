@@ -2,6 +2,16 @@
   "dependencies": {
     "express": "^4.19.2",
     "hbs": "^4.2.0",
-    "mongoose": "^8.3.4"
-  }
+    "mongoose": "^8.3.4",
+    "nodemon": "^3.1.0"
+  },
+  "name": "practice-login-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
